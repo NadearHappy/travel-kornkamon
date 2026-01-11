@@ -20,9 +20,6 @@ const Tours = () => {
           <Component
             key={t.id}
             {...t}
-          // title={c.title}
-          // duration={c.duration}
-          // price={c.price}
           />
         ))}
       </div>
